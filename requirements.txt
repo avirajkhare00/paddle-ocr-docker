@@ -1,0 +1,8 @@
+paddlepaddle-gpu>=2.5.1
+paddleocr>=2.7.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+pillow>=10.0.0
+python-jose>=3.3.0
+passlib>=1.7.4
