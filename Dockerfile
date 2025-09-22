@@ -1,5 +1,5 @@
 # Use NVIDIA CUDA base image
-FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu20.04
+FROM python:3.12-alpine
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
@@ -23,8 +23,7 @@ RUN pip3 install --no-cache-dir \
     fastapi \
     uvicorn \
     python-multipart \
-    pillow \
-    backports.zoneinfo
+    pillow
 
 # Create app directory
 WORKDIR /app
