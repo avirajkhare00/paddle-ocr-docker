@@ -23,7 +23,8 @@ RUN pip3 install --no-cache-dir \
     fastapi \
     uvicorn \
     python-multipart \
-    pillow
+    pillow \
+    backports.zoneinfo
 
 # Create app directory
 WORKDIR /app
