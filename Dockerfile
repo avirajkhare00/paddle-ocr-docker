@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
 
 # Install PaddleOCR and its dependencies
 RUN pip3 install --no-cache-dir \
-    paddlepaddle-gpu \
+    paddlepaddle \
     paddleocr \
     fastapi \
     uvicorn \
