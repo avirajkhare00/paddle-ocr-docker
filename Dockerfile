@@ -1,5 +1,5 @@
 # Use NVIDIA CUDA base image
-FROM python:3.12-alpine
+FROM python:3.12-slim-bookworm
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
