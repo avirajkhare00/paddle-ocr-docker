@@ -24,7 +24,7 @@ app.add_middleware(
 
 # Initialize PaddleOCR with GPU support
 try:
-    ocr = PaddleOCR(use_angle_cls=True, lang='en', use_gpu=True)
+    ocr = PaddleOCR(use_angle_cls=True, lang='en')
     logger.info("PaddleOCR initialized successfully with GPU support")
 except Exception as e:
     logger.error(f"Failed to initialize PaddleOCR: {str(e)}")
